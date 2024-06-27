@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* immagine index.html */
+#immagine{
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.goodfreephotos.com%2Falbums%2Fitaly%2Fother-italy%2Fbeautiful-landscape-with-mountains-and-lakes-with-sky-in-italy.jpg&f=1&nofb=1&ipt=7ae8e8c9946603576b7718629866de8944e03a0e71dc863e18b1baac4b150a33&ipo=images);
+    background-position: center;
+}
+
+/* immagine gran sasso */
+#immagine-GS{
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.verdidea.com%2Fimages%2F07121%2Fgransasso_large.jpg&f=1&nofb=1&ipt=bcbb0e7ac75c99bd0fffaad62183da197854e0e4f22f0de28ae1fdf5cc5c5c67&ipo=images);
+    background-position: center;
+    background-size: cover;
+}
+
+/* immagine cervino */
+#immagine-CE{
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JbuK_1I3n6dqtZiAQHz2fAHaFj%26pid%3DApi&f=1&ipt=958db5998681207e82d6b0a453105f85271c7e68a10255f72b0fe946a7e32b7e&ipo=images);
+    background-position: center;
+    background-size: cover;
+}
+
+/* immagine gran paradiso */
+#immagine-GP{
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdynamic-media-cdn.tripadvisor.com%2Fmedia%2Fphoto-o%2F17%2Ffb%2F4c%2F09%2Fvista-dal-belvedere-del.jpg%3Fw%3D1200%26h%3D1200%26s%3D1&f=1&nofb=1&ipt=89ddde39f6bcb30175ac06625c0e31a3ded0586d3b40a7cb72e96444aea322b5&ipo=images);
+    background-position: center;
+    background-size: cover;
+}
+
+/* immagine monte rosa */
+#immagine-MR{
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP._EF5C_4nfNbak8pwyYwoFQHaE7%26pid%3DApi%26h%3D160&f=1&ipt=51f4542fa93c610629b2edfb593dbb483567bddde213cc5b32d92f2007a9f5c4&ipo=images);
+    background-position: center;
+    background-size: cover;
+}
+
+/* immagine ortles */
+#immagine-OR{
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gNAP-eVmpsZYVtPhCppoYAHaEO%26pid%3DApi%26h%3D160&f=1&ipt=c0f506233507d8d914c6584076cb8822e4b76e3c0a23adbba416cfc8666270d2&ipo=images);
+    background-position: center;
+    background-size: cover;
+}
+
+#container{
+    padding: 12px;
+}
+
+.prata{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#descrizione-img{
+    font-size: 64px;
+}
+
+#località-img{
+    font-size: 24px;
+}
+
+.corsivo{
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* gradiente index.html */
+h6{
+    margin-top: 56px;
+    padding: 22px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(347deg, red, blue);
+}
+
+/* gradiente gran sasso */
+.gradiente-gs{
+    margin-top: 56px;
+    padding: 22px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(347deg, #009560, #0095fc);
+}
+
+/* gradiente cervino */
+.gradiente-ce{
+    margin-top: 56px;
+    padding: 22px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(347deg, #254831, #be795e);
+}
+
+/* gradiente gran paradiso */
+.gradiente{
+    margin-top: 56px;
+    padding: 22px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(347deg, brown, green);
+}
+
+/* gradiente monte rosa */
+.gradiente-mr{
+    margin-top: 56px;
+    padding: 22px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(347deg, #724889, orange);
+}
+
+/* gradiente ortles */
+#gradiente-or{
+    margin-top: 56px;
+    padding: 22px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(347deg, #72d589, #1c5e5e);
+}
+
+a{
+    text-decoration: none;
+}
+
+#lista{
+    list-style: none;
+}
+
+/* li index.html */
+li{
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+    color: blue;
+}
+
+/* li gran sasso */
+.li-gs{
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #0095fc;
+}
+
+/* li cervino */
+.li-ce{
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #be795e;
+}
+
+/* li gran paradiso */
+.li-gp{
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+    color: green;
+}
+
+/* li monte rosa */
+.li-mr{
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+    color: orange;
+}
+
+/* li monte ortles */
+.li-or{
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #1c5e5e;
+}
+
+
+
+footer{
+    background-color: black;
+    width: 100vw;
+    min-height: 130px;
+    text-align: center;
+    padding: 16px;
+    line-height: 130px;
+}
+
+#link-home{
+    color: white;
+
+}
+
+
+
+
+

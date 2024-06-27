@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--link CSS  -->
+    <link rel="stylesheet" href="css/pre-corso2.css">
+    <title>input e event listner</title>
+</head>
+<body>
+    <div class="container">
+        <h1>spotychina sign up</h1>
+        <form onsubmit="alert('registrato')">
+            <div>
+                <p>nome</p>
+                <input type="text">
+            </div>
+
+            <div>
+                <p>cognome</p>
+                <input type="text">
+            </div>
+
+            <div>
+                <p>e-mail</p>
+                <input type="email">
+            </div>
+
+            <div>
+                <p>telefono</p>
+                <input type="number">
+            </div>
+
+            <div>
+                <p>password</p>
+                <input type="password">
+            </div>
+
+            <div>
+                <p id="termini">accetta i nostri termini</p>
+                <label for="termini-privacy">accetto</label>
+                <input type="radio" name="termini">
+
+                <label for="termini-privacy">rifiuto</label>
+                <input type="radio" name="termini">
+            </div> 
+
+            <input type="submit" value="registarti" id="submit">
+        </form>
+
+        <h6>scopri se oggi è un buon giorno per ascoltare musica</h6>
+
+        <div>
+            <input type="date">
+        </div>
+        <button onclick="alert('è sempre un buon giorno per ascoltare musica')">oggi ascolto musica?</button>
+
+    </div>  
+</body>
+</html>

@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* font roboto */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+}
+
+.container{
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.panel{
+  background-color: lightgrey;
+  border-radius: 16px;
+  margin-top: 5px;
+  height: 210px;
+}
+
+.panel-header{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img {
+  padding: 5px;
+  animation: like 2s 10s;
+  width: 90px;
+  height: 140px;
+  border-radius: 16px;
+}
+
+
+/* animazione foto */
+@keyframes like {
+  100% {
+    transform: rotate(0deg) scale(1); /* Ruota l'immagine di 0 gradi e la scala a 1.2 */
+  }
+  /* Punto intermedio, 25% dell'animazione */
+  100% {
+    transform: rotate(15deg) scale(1); /* Ruota l'immagine di 15 gradi e la scala a 1.2 */
+  }
+  /* Punto intermedio, 50% dell'animazione */
+  100% {
+    transform: rotate(-180deg) scale(1); /* Ruota l'immagine di -180 gradi e la scala a 1.2 */
+  }
+  /* Punto intermedio, 75% dell'animazione */
+  100% {
+    transform: rotate(-360deg) scale(1); /* Ruota l'immagine di -360 gradi e la scala a 1.2 */
+  }
+  /* Fine dell'animazione, 100% rappresenta il punto finale */
+  100% {
+    transform: rotate(-360deg) scale(1); /* Ruota l'immagine di -360 gradi e la scala a 1.2 (stesso stato del 75%) */
+  }
+}
+
+div > h3{
+  margin: 10px auto 0 auto;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  width: 64%;
+}
+
+#container-interessi{
+  position: relative;
+  bottom: 50px
+}
+
+#rotate{
+  display: inline-block;
+  animation: like 1.5s infinite; /* Applica l'animazione 'like' alla classe 'photo', durata di 4 secondi, in loop infinito */
+}
+
+#interessi{
+  display: flex;
+  flex-direction: column;
+}
+
+h4{
+  position: relative;
+  right: 17px;
+}
+
+/* inizio tabella */
+.panel-main{
+  line-height: 50px;
+}
+
+table{
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+td{
+  border: 1px solid black;
+  padding: 3px;
+  text-align: center;
+}
+
+td > h5{
+  color: red;
+}
+
+td > span{
+  color: red;
+  font-size: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+/* inizio footer */
+.panel-footer{
+  font-size: 12px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  line-height: 100px;
+}
